@@ -13,10 +13,20 @@ last_a_index = print(magic.rindex('a'))
 # rindex finds the last occurence of a specified value
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
 # a. Extract the letters 'hij'.
+hig = print(alphabet [7:10])     # output : hij
 # b. Extract every second letter starting from 'a' to 'm'.
-# c. Reverse the entire string using slicing.
+every_second = print(alphabet [0:13:2])  # output:acegikm
+#get the ltter m
+m_index = print(alphabet[::-1])
 
+
+# c. Reverse the entire string using slicing.
+revered_alphabet = print(alphabet[::-1]) #output : zyxvutsrqpomnlkjihgfedcba
+I_have_a_dream = "I have a dream that one day this nation will rise upon the true meaning of its creed"
+# reverse the strong
+reversed_speech = print (I_have_a_dream [::-1])
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
